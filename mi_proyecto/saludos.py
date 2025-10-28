@@ -14,11 +14,11 @@ def saludo_informal(name: str):
 def saludo(name: str, tipo: str = "informal"):
   """Genera un saludo basado en el tipo especificado."""
   if tipo == "formal":
-  saludo_formal(name)
+    saludo_formal(name)
   else:
-  saludo_informal(name)
+    saludo_informal(name)
 
-  def greet_in_english(name: str):
-  """Genera un saludo simple en inglés."""
-  message = f"Hello, {name}!"
-  print_message(message)
+def greet_in_english(name: str):
+    """Genera un saludo simple en inglés."""
+    message = f"Hello, {name}!"
+    print_message(message)
